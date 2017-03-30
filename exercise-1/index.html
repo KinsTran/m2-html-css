@@ -7,8 +7,14 @@
   </head>
   <body>
     <!-- Container div for content-->
-
-      <!-- Use h1 and p elements to re-create the bar-chart text -->
+    <div>
+      <h1>This looks like a simple bar chart</h1>
+      <p>(but it really just consists of html rect) elements in an svg element</p>
+      <svg width="1000" height="100">
+        <rect x="0" y="10" width="100" height="10" />
+        <rect x="0" y="30" width="200" height="10" />
+        <rect x="0" y="50" width="300" height="10" />
+      </svg>
 
       <!-- Make a container svg for "bar-chart" visual elements: make sure to set width/height attributes -->
 
@@ -23,6 +29,6 @@
 
             <!-- Create circle elements that look like a scatter plot -->
             <!-- Create line elements that resemble  axes -->
-
+    </div>
   </body>
 </html>
